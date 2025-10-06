@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- SEO and Social Media Meta Tags -->
+  {% seo %}
+
+  <!-- Feed -->
+  {% feed_meta %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <ul class="nav-links">
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/newsletters/' | relative_url }}">Newsletter</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>{{ site.title | escape }}</h3>
+          <p>{{ site.description | escape }}</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/newsletters/' | relative_url }}">Newsletter</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <p>Email: {{ site.email }}</p>
+          <p><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
