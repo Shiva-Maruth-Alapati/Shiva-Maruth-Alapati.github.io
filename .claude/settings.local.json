@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(bundle install)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(curl:*)",
+      "Bash(jekyll serve:*)",
+      "Bash(git add:*)",
+      "Bash(bundle exec:*)"
     ],
     "deny": [],
     "ask": []

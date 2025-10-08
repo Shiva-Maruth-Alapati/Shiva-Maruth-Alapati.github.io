@@ -1,35 +1,38 @@
 ---
-layout: default
-title: About
+layout: single
+title: About Me
 permalink: /about/
+author_profile: true
 ---
-
-# About Me
 
 Welcome to my personal website! I'm glad you're here.
 
 ## Who I Am
 
-[Add your personal introduction here. Talk about who you are, what you do, your interests, and what drives you.]
+I'm a Software Development Engineer at AWS SageMaker AI, where I focus on building systems to make fine-tuning large language models scalable, reliable, and cost-effective. Based in Sunnyvale, California, I'm passionate about the intersection of software engineering and artificial intelligence.
 
 ## What You'll Find Here
 
 This site is my digital home where I share:
 
-- **Blog Posts**: My thoughts, experiences, and insights on topics I'm passionate about
-- **Newsletter**: Regular updates and curated content delivered directly to your inbox
-- **Projects**: Things I'm working on and learning about
+- **Blog Posts**: My thoughts on software engineering, machine learning, and building systems at scale
+- **Newsletter**: Regular updates on AI/ML trends, engineering insights, and curated content
+- **Projects**: Deep dives into the systems and technologies I'm working with
 
 ## My Story
 
-[Share your background, journey, and what led you to create this website. This is where you can get personal and connect with your readers.]
+Currently, I'm focused on software for fine-tuning foundation models and evaluating performance at scale, helping customers adapt large language and vision models efficiently. Previously, I worked on SageMaker HyperPod, where I contributed to improving large-scale distributed model training.
+
+My journey at AWS began with the Lambda team, where I designed and shipped services that improved reliability, reduced costs, and automated operations at scale. Some highlights include reducing data sync from hours to minutes, automating new region expansion, and reducing cold starts for provisioned concurrency customers.
+
+I continue my learning through Stanford Continuing Studies and hold a degree from Virginia Tech. I'm always excited about new challenges in scalable AI systems and the evolving landscape of machine learning infrastructure.
 
 ## Connect With Me
 
 I'd love to hear from you! You can reach me at:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- [Add other social media or contact links as desired]
+- Email: [shivamaruth.alapati@gmail.com](mailto:shivamaruth.alapati@gmail.com)
+- LinkedIn: [linkedin.com/in/shiva-maruth-alapati](https://www.linkedin.com/in/shiva-maruth-alapati/)
 
 ## Subscribe
 

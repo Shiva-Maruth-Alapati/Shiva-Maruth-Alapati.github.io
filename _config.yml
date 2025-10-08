@@ -1,33 +1,60 @@
 # Site settings
-title: Your Blog Name
-email: your-email@example.com
+title: Shiva Maruth Alapati
+email: shivamaruth.alapati@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Building Scalable AI @ AWS | Thoughts on software engineering, machine learning,
+  and building systems at scale. Currently focused on making fine-tuning LLMs
+  scalable, reliable, and cost-effective.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your site, change this to your GitHub Pages URL
+url: "https://shivamaruth.github.io" # the base hostname & protocol for your site, change this to your GitHub Pages URL
 
 # Author information
 author:
-  name: Your Name
-  email: your-email@example.com
+  name: Shiva Maruth Alapati
+  avatar: # Optional avatar image
+  bio: "Building Scalable AI @ AWS | Software Engineer focused on LLM fine-tuning and distributed training"
+  location: "Sunnyvale, California"
+  email: shivamaruth.alapati@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shivamaruth.alapati@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shiva-maruth-alapati/"
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dirt"
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
+# Minimal Mistakes theme settings
+logo: # Optional site logo
+search: true
+breadcrumbs: false # Clean, minimal navigation
+
+# Navigation
+include: ["_pages"]
+navigation_main: main
+
+# Site footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shivamaruth.alapati@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shiva-maruth-alapati/"
 
 # Collections for newsletter
 collections:
@@ -48,14 +75,32 @@ exclude:
 
 # Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
-      author: "Your Name"
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: false
+      show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _newsletters
   - scope:
       path: ""
-      type: "newsletters"
+      type: newsletters
     values:
-      layout: "newsletter"
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true

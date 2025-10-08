@@ -1,67 +1,67 @@
 ---
-layout: newsletter
-title: "Inaugural Newsletter - Welcome!"
+layout: single
+title: "The AI Engineering Weekly - Issue #1"
 date: 2024-10-06 10:00:00 -0000
 issue: 1
-author: Your Name
-excerpt: "Welcome to the very first issue of my newsletter! Here's what you can expect and some thoughts to kick things off."
+author: Shiva Maruth Alapati
+excerpt: "Welcome to the first issue of The AI Engineering Weekly! Insights from building scalable AI systems at AWS, trends in LLM fine-tuning, and curated resources for ML engineers."
 ---
 
-# Welcome to My Newsletter!
+# Welcome to The AI Engineering Weekly!
 
-Hello and welcome to the inaugural issue of my newsletter! I'm thrilled to have you as a subscriber and want to take this opportunity to share what you can expect in future issues.
+Hello and welcome to the inaugural issue of my newsletter! I'm thrilled to have you as a subscriber. As someone building scalable AI systems at AWS SageMaker AI, I want to share insights from the trenches of AI engineering with fellow practitioners and enthusiasts.
 
 ## What This Newsletter Is About
 
 This newsletter will be your regular dose of:
 
-- **Curated insights** from my recent reading and learning
-- **Behind-the-scenes** updates on my projects and work
-- **Recommendations** for books, articles, tools, and resources
-- **Personal reflections** on life, growth, and interesting observations
-- **Exclusive content** that you won't find on the blog
+- **Technical insights** from building AI systems at scale
+- **Behind-the-scenes** updates from my work on LLM fine-tuning and distributed training
+- **Curated resources** on ML infrastructure, optimization techniques, and emerging tools
+- **Industry observations** on the rapidly evolving AI landscape
+- **Practical tips** for engineers working on machine learning systems
 
 ## Format and Frequency
 
-I'm planning to send this newsletter **bi-weekly** (every two weeks), giving me enough time to curate quality content while keeping you regularly updated. Each issue will be concise but valuable - I respect your time and inbox.
+I'm planning to send this newsletter **bi-weekly** (every two weeks), giving me time to curate quality technical content while keeping you updated on the latest developments. Each issue will be concise but packed with actionable insights - I respect your time and inbox.
 
 ## This Week's Highlights
 
 ### 📚 What I'm Reading
-- *[Book Title]* by [Author] - A fascinating exploration of [topic]
-- *[Article Title]* - An insightful piece about [subject]
+- *"Designing Data-Intensive Applications"* by Martin Kleppmann - Still one of the best resources for understanding distributed systems principles that apply to ML infrastructure
+- *"The Hundred-Page Machine Learning Book"* by Andriy Burkov - A concise yet comprehensive ML reference I keep coming back to
 
 ### 🛠️ What I'm Working On
-I'm currently diving deep into [project/topic]. It's been an interesting challenge because [brief explanation].
+I'm currently diving deep into optimizing fine-tuning workflows for large language models. The challenge involves balancing compute efficiency, memory usage, and training speed while maintaining model quality. It's fascinating how distributed training strategies need to adapt as model sizes continue to grow.
 
 ### 💡 Thought of the Week
-> "The best way to find out if you can trust somebody is to trust them." - Ernest Hemingway
+> "Premature optimization is the root of all evil" - Donald Knuth
 
-This quote resonated with me this week as I thought about [brief personal reflection or connection].
+This quote resonated with me this week as I worked on performance improvements. Sometimes the best optimization is understanding your bottlenecks first, rather than guessing where to focus your efforts.
 
 ### 🔗 Links Worth Sharing
-- **[Resource Name]**: [Brief description of why it's valuable]
-- **[Tool/Website]**: [What it does and why you might find it useful]
-- **[Article/Video]**: [Key takeaway or interesting point]
+- **[Hugging Face's PEFT Library](https://github.com/huggingface/peft)**: Essential for parameter-efficient fine-tuning methods
+- **[DeepSpeed](https://github.com/microsoft/DeepSpeed)**: Microsoft's library for efficient large model training
+- **[This Week in AI](https://www.deeplearning.ai/the-batch/)**: Andrew Ng's weekly AI newsletter with great industry insights
 
 ## A Personal Note
 
-Starting this newsletter feels like the beginning of a new conversation with all of you. I'm excited to build this community and share this journey of learning and growth together.
+Starting this newsletter feels like the beginning of an important conversation with the AI engineering community. The field is moving so quickly, and I believe we all benefit from sharing our experiences building these systems in production.
 
-If you have any feedback, suggestions for topics, or just want to say hi, feel free to reply to this email. I read every response and love hearing from subscribers.
+If you have any feedback, questions about specific AI engineering topics, or want to share your own experiences, feel free to reply to this email. I read every response and love connecting with fellow engineers.
 
 ## What's Coming Next
 
 In the next issue, I'll be sharing:
-- Lessons learned from [specific project or experience]
-- A deep dive into [interesting topic]
-- More book recommendations from my reading list
+- Lessons learned from optimizing LLM inference at scale
+- A comparison of different fine-tuning strategies and when to use each
+- Deep dive into cost optimization for ML workloads on cloud platforms
 
 ---
 
-**Thank you for subscribing!** If you enjoyed this newsletter, please consider sharing it with someone who might find it valuable.
+**Thank you for subscribing!** If you found this valuable, please consider sharing it with other AI engineers who might benefit from these insights.
 
 Until next time,
-[Your Name]
+Shiva Maruth Alapati
 
 P.S. You can always catch up on previous issues in the [newsletter archive]({{ '/newsletters/' | relative_url }}) on my website.

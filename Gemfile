@@ -28,10 +28,14 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+# Minimal Mistakes theme
+gem "minimal-mistakes-jekyll"
+
 # Additional gems for enhanced functionality
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-paginate"
+  gem "jekyll-include-cache"
 end
