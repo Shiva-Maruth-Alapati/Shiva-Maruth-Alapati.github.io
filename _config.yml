@@ -36,7 +36,7 @@ plugins:
   - jekyll-include-cache
 
 # Minimal Mistakes theme settings
-logo: "/assets/images/profile.jpg" # Optional small site logo (same image works fine)
+logo: "/assets/images/logo.jpg" # Optional small site logo (same image works fine)
 search: true
 breadcrumbs: false
 
