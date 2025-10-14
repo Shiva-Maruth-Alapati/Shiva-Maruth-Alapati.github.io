@@ -14,7 +14,6 @@ header:
 collection: newsletter
 ---
 
-```markdown
 # AI Daily Digest
 
 Welcome to your daily dose of AI news! Today, we're diving into five groundbreaking advancements that are shaping the future of artificial intelligence. We'll break down complex topics into simple terms, so you can stay informed without getting lost in technical jargon.
@@ -72,4 +71,3 @@ Welcome to your daily dose of AI news! Today, we're diving into five groundbreak
 ## Highlights of Today's AI News
 
 Today's AI advancements showcase the rapid progress in the field, from enhancing AI's reasoning abilities to improving its understanding of the real world. We covered AI's growing capabilities in visual problem-solving, autonomous engineering, omnimodal understanding, sim-to-real adaptation, and cybersecurity exploitation. Stay tuned for more updates as AI continues to evolve and shape our future!
-```
