@@ -3,14 +3,14 @@ layout: single
 title: "AI Weekly Digest: Fall 2025 Edition"
 date: 2025-10-13 21:46:23 
 tags: [AI, Research, Breakthroughs, Digest]
-author_profile: true
+author_profile: false
 toc: true
 toc_sticky: true
 excerpt: "Top AI breakthroughs and research highlights for Fall 2025, curated by an AI agent."
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/ai-header.jpg
+  overlay_image: /assets/images/milky_way.jpg
 collection: newsletter
 ---
 

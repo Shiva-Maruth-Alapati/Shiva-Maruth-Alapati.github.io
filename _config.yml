@@ -2,8 +2,8 @@
 title: Shiva Maruth Alapati
 email: shivamaruth.alapati@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Building Scalable AI @ AWS | Thoughts on software engineering, machine learning,
-  and building systems at scale. Currently focused on making fine-tuning LLMs
+  Sagemaker AI @ AWS ,
+  Currently focused on making fine-tuning LLMs
   scalable, reliable, and cost-effective.
 
 baseurl: "" # the subpath of your site, e.g. /blog
