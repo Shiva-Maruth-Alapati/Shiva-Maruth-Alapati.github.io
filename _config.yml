@@ -1,33 +1,31 @@
 # Site settings
-title: Shiva Maruth Alapati
-email: shivamaruth.alapati@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Sagemaker AI @ AWS ,
-  Currently focused on making fine-tuning LLMs
-  scalable, reliable, and cost-effective.
+title: "Shiva Maruth Alapati"
+email: "shivamaruth.alapati@gmail.com"
+description: >-
+  Building scalable AI @ AWS | Focused on making LLM fine-tuning reliable and cost-effective.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shivamaruth.github.io" # the base hostname & protocol for your site, change this to your GitHub Pages URL
+baseurl: "" # e.g., /blog
+url: "https://shiva-maruth-alapati.github.io"
 
 # Author information
 author:
-  name: Shiva Maruth Alapati
-  avatar: # Optional avatar image
-  bio: "Building Scalable AI @ AWS | Software Engineer focused on LLM fine-tuning and distributed training"
+  name: "Shiva Maruth Alapati"
+  avatar: "/assets/images/profile.jpg" # Add this image to assets/images/
+  bio: "Building Scalable AI @ AWS | Focused on LLM fine-tuning and distributed training."
   location: "Sunnyvale, California"
-  email: shivamaruth.alapati@gmail.com
+  email: "shivamaruth.alapati@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shivamaruth.alapati@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shiva-maruth-alapati/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shivamaruth.alapati@gmail.com"
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dirt"
 
 # Plugins
@@ -38,69 +36,62 @@ plugins:
   - jekyll-include-cache
 
 # Minimal Mistakes theme settings
-logo: # Optional site logo
+logo: "/assets/images/profile.jpg" # Optional small site logo (same image works fine)
 search: true
-breadcrumbs: false # Clean, minimal navigation
+breadcrumbs: false
 
 # Navigation
 include: ["_pages"]
 navigation_main: main
 
-# Site footer
+# Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shivamaruth.alapati@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/shiva-maruth-alapati/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shivamaruth.alapati@gmail.com"
 
-# Collections for newsletter
+# Collections
 collections:
   newsletters:
     output: true
     permalink: /:collection/:name/
 
-# Exclude from processing
+# Exclude unnecessary folders
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - .github/
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
-      comments: false
       share: true
-      related: false
       show_date: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: false
-  # _newsletters
+      author_profile: true
+
   - scope:
       path: ""
       type: newsletters
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
-      comments: false
       share: true
