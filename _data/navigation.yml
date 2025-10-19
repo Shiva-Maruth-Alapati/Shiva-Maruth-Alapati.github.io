@@ -1,9 +1,10 @@
+# Main navigation links
 main:
+  - title: "Home"
+    url: /
   - title: "Blog"
     url: /blog/
-  - title: "Newsletters"
+  - title: "Newsletter"
     url: /newsletters/
-  - title: "Books"
-    url: /books/
   - title: "About"
     url: /about/

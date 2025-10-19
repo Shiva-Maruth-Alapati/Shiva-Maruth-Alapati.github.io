@@ -1,9 +1,0 @@
-main:
-  - title: "Blog"
-    url: /blog/
-  - title: "Newsletters"
-    url: /newsletters/
-  - title: "Books"
-    url: /books/
-  - title: "About"
-    url: /about/
