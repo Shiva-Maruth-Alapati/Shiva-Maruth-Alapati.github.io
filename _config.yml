@@ -26,7 +26,7 @@ author:
 markdown: kramdown
 highlighter: rouge
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "mint"
 
 # Plugins
 plugins:
@@ -41,8 +41,7 @@ search: true
 breadcrumbs: false
 
 # Navigation
-include: ["_pages"]
-navigation_main: main
+include: ["_pages", "_data"]
 
 # Footer
 footer:
