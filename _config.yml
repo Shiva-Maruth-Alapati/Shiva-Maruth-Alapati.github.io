@@ -54,12 +54,6 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:shivamaruth.alapati@gmail.com"
 
-# Collections
-collections:
-  newsletters:
-    output: true
-    permalink: /:collection/:name/
-
 # Exclude unnecessary folders
 exclude:
   - Gemfile
@@ -86,12 +80,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-  - scope:
-      path: ""
-      type: newsletters
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
